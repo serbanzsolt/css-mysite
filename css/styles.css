@@ -1,24 +1,43 @@
 /********************************tag selectors*********************************/
-body{
+body {
+  text-align: center;
   margin: 0;
+  font-family: verdana, sans-serif;
 }
-h1{
-    margin-top: 0;
+
+h1 {
+  margin-top: 0;
+}
+
+span {
+  text-decoration:underline;
 }
 
 /********************************class selectors*******************************/
-.top-container{
-  background-color: #DEECFF
+.top-container {
+  background-color: #F3F8FF;
+  position:relative;
+  padding-top: 100px;
 }
-.middle-container{
+
+.middle-container {
   background-color: red;
   height: 200px;
   width: 200px;
 }
 
-.bottom-container{
+.bottom-container {
   background-color: blue;
   height: 200px;
   width: 200px;
-
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom: 300px;
 }
